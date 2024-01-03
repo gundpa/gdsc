@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="shortcut icon" href="GDSCIMages/gdsc-logo.png" type="image/x-icon">
+</head>
+<body >
+    <!--first container-->
+    <section>
+        <!--Nav bar-->
+        <div class="bg-gradient-to-r gap-3 from-indigo-500 from-10%  via-sky-500 via-30% to-emerald-500 to-90%
+        mx-auto flex ">
+            <div class="py-2 flex px-3">
+                <img src="GDSCIMages/gdsc-logo.png" alt="" width="" class=" w-20">
+                <span class="py-6 px-4 text-2xl font-bold text-sky-400 hover:font-extrabold cursor-pointer">SIGCE</span>
+            </div>
+
+            <div class="py-6  relative px-4 font-bold text-blue-900 ">
+                <ul class="flex  py-4 gap-5 relative px-72 ">  
+                    <li class="hover:text-yellow-400 ">
+                        <a href="#Home" >Home</a>
+                    </li>
+
+                    <li class="hover:text-yellow-400 transition-all duration-200">
+                        <a href="#contact-us"  >Contact us</a>
+                    </li>
+
+                    <li class="hover:text-yellow-400 transition-all duration-200">
+                        <a href="#view-team" >View Teams</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!--For main Section-->
+        <section class="bg-green-100 w-[full] h-[520px] mx-auto flex " id="Home">
+            <div class="mx-auto mt-6">
+                <p class="text-4xl font-bold "> Welcome to  <span class="text-4xl text-green-500 font-bold hover:text-sky-400 transition-all duration-200">GDSC STUDENTS CLUB .</span></p>
+                <div class="bg-green-600 w-8 h-1 mx-auto mt-2" ></div>
+
+                <div class="mx-auto flex mt-10 z-50">
+                    <div>
+                        <!--Right Section-->
+                        <h1 class="text-4xl font-bold text-green-500 leading-10 mt-4">EXPLORE GDSC.</h1>
+                        <h3 class="text-xl text-gray-500 leading-10 mt-4">A Window with the GDSC Environment </h3>
+                        <p class="text-xl text-gray-500 leading-10"> GDSC is a platform where you can explore 
+                            the , <br>
+                         google paid courses for free.
+                        </p>
+                        <button class=" font-bold text-blue-950 px-10 py-4 bg-green-700 mt-10 rounded-lg hover:bg-sky-800 transition-all duration-300">Join Us</button>
+                    </div>
+    
+                    <!--Left-Section-->
+                    <div>
+                        <img src="data:image/png;base64,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"
+                         alt="" width="600" class="-z-10 ">
+                    </div>
+    
+                </div>
+              
+            </div>
+            
+           
+
+
+        </section>
+
+        <!--Course Section-->
+        <section class="bg-green-200">
+            <h1 class="font-bold text-blue-600 text-2xl px-32 0" id="view-team">View Teams</h1>
+           <div class="flex py-6  gap-6  px-32 h-[360px]   ">
+            <div class=" text-white rounded-lg px-4 border-sky-950  w-96 h-64 bg-gray-400 font-mono font-bold py-4">Team-1(Content team) 
+                <br><br><p class="font-sans capitalize font-normal px-4">
+                    responsible for the ideation, creation, optimization and distribution of your company's content marketing efforts.
+                </p><br> <br>
+               <div class="px-4">
+                <button class="bg-cyan-800 text-white font-bold font-serif capitalize w-36 h-9 rounded-lg text-center hover hover:bg-red-500 ease-in duration-100  ">
+                    Know more 
+                </button>
+               </div>
+            </div>
+
+            <div class=" text-white rounded-lg px-4 border-sky-950  w-96 h-64 bg-gray-400 font-mono font-bold py-4">Team-1(Content team) 
+                <br><br><p class="font-sans capitalize font-normal px-4">
+                    responsible for the ideation, creation, optimization and distribution of your company's content marketing efforts.
+                </p><br> <br>
+               <div class="px-4">
+                <button class="bg-cyan-800 text-white font-bold font-serif capitalize w-36 h-9 rounded-lg text-center hover hover:bg-red-500 ease-in duration-100  ">
+                    Know more 
+                </button>
+               </div>
+            </div>
+
+            <div class=" text-white rounded-lg px-4 border-sky-950  w-96 h-64 bg-gray-400 font-mono font-bold py-4">Team-1(Content team) 
+                <br><br><p class="font-sans capitalize font-normal px-4">
+                    responsible for the ideation, creation, optimization and distribution of your company's content marketing efforts.
+                </p><br> <br>
+               <div class="px-4">
+                <button class="bg-cyan-800 text-white font-bold font-serif capitalize w-36 h-9 rounded-lg text-center hover hover:bg-red-500 ease-in duration-100  ">
+                    Know more 
+                </button>
+               </div>
+            </div>
+
+            <div class=" text-white rounded-lg px-4 border-sky-950  w-96 h-64 bg-gray-400 font-mono font-bold py-4">Team-1(Content team) 
+                <br><br><p class="font-sans capitalize font-normal px-4">
+                    responsible for the ideation, creation, optimization and distribution of your company's content marketing efforts.
+                </p><br> <br>
+               <div class="px-4">
+                <button class="bg-cyan-800 text-white font-bold font-serif capitalize w-36 h-9 rounded-lg text-center hover hover:bg-red-500 ease-in duration-100  ">
+                    Know more 
+                </button>
+               </div>
+            </div>
+           
+           </div>
+        </section>
+
+        <!--end part -->
+        <section class="bg-blue-950 text-white font-serif " id="contact-us">
+            <div class="gap-6">
+              
+    
+                    <p class="font-bold text-2xl text-blue-600 mx-auto px-32" >Contact-Us </p>
+                    <form action="feedback form " class="px-32 py-6 flex gap-6  rounded-lg "  >
+
+                  Name-  <input type="text " placeholder="Name" class="text-black h-6 ">
+                   E-mail <input type="email" placeholder="Email" class="text-black h-6">
+                   <br><br> <div>
+                      feedback  -  <input type="text" placeholder="Feedback " class="text-black h-">
+                    </div>    
+                </form>
+            </div>
+            <div class="text-yellow-400 font-bold font-serif">
+                Contact-us=Gdscsigc@gmail.com
+            </div>
+        </section>
+    </section>
+</body>
+</html>
